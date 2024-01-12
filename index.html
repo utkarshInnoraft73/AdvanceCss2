@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<!-- <script>
+    $(document).ready(function () {
+        $(".inbox").click(function () {
+            $("#mailModal").show();
+        });
+        $(".btn").click(function () {
+            $("#mailModal").hide();
+        });
+    });
+</script> -->
+
+<body>
+    <!-- Nav Section starts here -->
+
+    <section class="wrapper">
+        <nav class="navbar container">
+            <div class="logoDiv">
+                <img src="./images/head_logo.jpg" class="imageDIv" alt="logo">
+            </div>
+            <div class="navlinks">
+                <ul>
+                    <li><a href="#">
+                            home
+                        </a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#gallery">portfolio</a></li>
+                    <li><a href="#plans">price</a></li>
+                    <li><a href="#blog">blogs</a></li>
+                </ul>
+                <div class="inbox">
+                    <img src="./images/mail.jpg" alt="inbox" class="imageDIv">
+
+                </div>
+            </div>
+        </nav>
+        <div id="mailModal">
+            <form action="">
+                <label for="email">To:</label>
+                <br>
+                <input name="email" type="email" placeholder="Email">
+                <br>
+                <br>
+                <label for="subject">Subject:</label>
+                <br>
+                <input name="subject" type="text" placeholder="Subject">
+                <br>
+                <br>
+
+                <label for="message">Message:</label>
+                <br>
+                <input name="message" type="text" placeholder="Message">
+                <br>
+                <br>
+                <button class="btn submitBtn" style="color: black; border: 2px solid black;">submit</button>
+                <button class="btn cancelBtn" style="color: black; border: 2px solid black;">Cancel</button>
+                <!-- <input type="submit">
+                <input type="reset"> -->
+
+            </form>
+        </div>
+    </section>
+    <!-- Nav Section starts here -->
+    <!-- Banner section starts here -->
+    <section id="banner">
+        <div class="container" style="height: 100%;">
+
+            <div class="bannerContent">
+                <div class="bannerText">
+                    <span>We Will <strong>Make</strong> Your <strong>Business</strong><br> Great Again</span>
+                    <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit.</p>
+                </div>
+                <div class="bannerButton">
+                    <a class="btn btn1">contact us</a>
+                    <a class="btn btn2">discover now</a>
+                </div>
+            </div>
+            <div class="downArraw">
+                <a href="#about">
+
+                    <img src="./images/icons/darrow.png" alt="" class="imageDIv" style="height: auto;">
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Banner section starts here -->
+    <!-- About Section Starts here -->
+    <section id="about">
+        <div class="aboutContainer container">
+            <div class="aboutText">
+                <h2>
+                    Hello <span>World</span>
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad quam unde magnam ipsam amet eius
+                    provident odio quo. Praesentium deserunt autem accusantium ipsum voluptate, ullam unde quos aut
+                    cupiditate, blanditiis aperiam, totam doloribus vitae tempore?
+                </p>
+                <div class="aboutList">
+                    <div class="aboutListImg">
+
+                        <img src="./images/icons/i-diamond_b.svg" alt="" class="imageDIv">
+                    </div>
+                    <span>Exploring your area of activity</span>
+                </div>
+                <div class="aboutList">
+                    <div class="aboutListImg">
+
+                        <img src="./images/icons/i-wallet_b.svg" alt="" class="imageDIv">
+                    </div>
+                    <span>Competitive analysis</span>
+                </div>
+                <div class="aboutList">
+                    <div class="aboutListImg">
+
+                        <img src="./images/icons/i-trophy_b.svg" alt="" class="imageDIv">
+                    </div>
+                    <span>Do the work in time</span>
+                </div>
+            </div>
+            <div class="aboutImage">
+                <img src="./images/img-3.jpg" alt="" width="700" height="400">
+            </div>
+        </div>
+
+    </section>
+    <!-- About Section End here -->
+    <!-- Services section starts here-->
+    <section id="services">
+        <div class="container">
+
+
+            <div class="serviceHeading">
+                <h2>Some of our <span>best services</span>
+                    <br>to solve your problems
+                </h2>
+            </div>
+            <div class="serviceContent">
+                <div class="box">
+                    <div class="gllimpsImg">
+
+                        <img src="./images/icons/i-message_w.svg" alt="" class="imageDIv">
+                    </div>
+                    <h3>Digital Marketing</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, sit.
+                    </p>
+                </div>
+                <div class="box">
+                    <div class="gllimpsImg">
+
+                        <img src="./images/icons/i-feature_w.svg" alt="" class="imageDIv">
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, sit.
+                    </p>
+                </div>
+                <div class="box">
+                    <div class="gllimpsImg">
+
+                        <img src="./images/icons/i-sketch.svg" alt="" class="imageDIv">
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, sit.
+                    </p>
+                </div>
+            </div>
+            <div class="servicesButton">
+                <btn class="btn">Order a service</btn>
+            </div>
+        </div>
+    </section>
+    <!-- Services section starts here-->
+    <!-- Gallery section starts here -->
+    <section id="gallery">
+        <div class="container">
+            <div class="galleryHeader">
+                <h2><span>Good design</span> is obvious<br>Great design is transparent</h2>
+                <p><strong>About Joe &copy;</strong> graphic designer, digital literacy teacher</p>
+            </div>
+            <div class="galleryContent">
+                <div>
+
+                </div>
+                <ul class="galleryLinks">
+                    <li class="all">
+                        <!-- <button class="btn">Show all</button> -->
+                        Show all
+                    </li>
+                    <li class="design">
+                        <!-- <button class="btn">design</button> -->
+                        design
+                    </li>
+                    <li class="code">
+                        <!-- <button class="btn">code</button> -->
+                        code
+                    </li>
+                    <li class="art">
+                        <!-- <button class="btn">art</button> -->
+                        art
+
+                    </li>
+                </ul>
+
+                <div class="galleryPhotos">
+                    <div class="item1 ">
+                        <img src="./images/12-min.jpg" alt="" class="imageDIv galleryImgHover">
+                        <div class="middleDiv">
+                            <div class="middleDivContent">
+                                <div class="middileContentBtn">
+                                    +
+                                </div>
+                                <div class="middileContenttText">
+
+                                    <h4>Project title</h4>
+                                    <p>Code</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item2">
+                        <!-- <div class="galleryImgHover"></div> -->
+
+                        <img src="./images/2-min.jpg" alt="" class="imageDIv galleryImgHover">
+                        <div class="middleDiv">
+                            <div class="middleDivContent">
+                                <div class="middileContentBtn">
+                                    +
+                                </div>
+                                <div class="middileContenttText">
+
+                                    <h4>Project title</h4>
+                                    <p>Code</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item3">
+
+                        <img src="./images/2-min.jpg" alt="" class="imageDIv galleryImgHover">
+                        <div class="middleDiv">
+                            <div class="middleDivContent">
+                                <div class="middileContentBtn">
+                                    +
+                                </div>
+                                <div class="middileContenttText">
+
+                                    <h4>Project title</h4>
+                                    <p>Code</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item4">
+
+                        <img src="./images/2-min.jpg" alt="" class="imageDIv galleryImgHover">
+                        <div class="middleDiv">
+                            <div class="middleDivContent">
+                                <div class="middileContentBtn">
+                                    +
+                                </div>
+                                <div class="middileContenttText">
+
+                                    <h4>Project title</h4>
+                                    <p>Code</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item5">
+
+                        <img src="./images/12-min.jpg" alt="" class="imageDIv galleryImgHover">
+                        <div class="middleDiv">
+                            <div class="middleDivContent">
+                                <div class="middileContentBtn">
+                                    +
+                                </div>
+                                <div class="middileContenttText">
+
+                                    <h4>Project title</h4>
+                                    <p>Code</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item6">
+
+                        <img src="./images/2-min.jpg" alt="" class="imageDIv galleryImgHover">
+                        <div class="middleDiv">
+                            <div class="middleDivContent">
+                                <div class="middileContentBtn">
+                                    +
+                                </div>
+                                <div class="middileContenttText">
+
+                                    <h4>Project title</h4>
+                                    <p>Code</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item7">
+
+                        <img src="./images/2-min.jpg" alt="" class="imageDIv galleryImgHover">
+                        <div class="middleDiv">
+                            <div class="middleDivContent">
+                                <div class="middileContentBtn">
+                                    +
+                                </div>
+                                <div class="middileContenttText">
+
+                                    <h4>Project title</h4>
+                                    <p>Code</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Gallery section starts here -->
+    <!-- Glimps starts here -->
+    <section id="gllimps">
+        <div class="container gllimpsContainer ">
+
+            <div class="gllimpsContent">
+                <div class="gllimpsImg">
+
+                    <img src="./images/icons/i-team.svg" alt="" class="imageDIv">
+                </div>
+                <p>Unique Customer:</p>
+                <h4>3519+</h4>
+            </div>
+            <div class="gllimpsContent">
+                <div class="gllimpsImg">
+
+                    <img src="./images/icons/i-shield.svg" alt="" class="imageDIv">
+                </div>
+                <p>Completed projects:</p>
+                <h4>3519+</h4>
+            </div>
+            <div class="gllimpsContent">
+                <div class="gllimpsImg">
+
+                    <img src="./images/icons/i-diamond.svg" alt="" class="imageDIv">
+                </div>
+                <p>Happy users:</p>
+                <h4>3519+</h4>
+            </div>
+            <div class="gllimpsContent">
+                <div class="gllimpsImg">
+
+                    <img src="./images/icons/i-trophy.svg" alt="" class="imageDIv">
+                </div>
+                <p>Honors and awards:</p>
+                <h4>3519+</h4>
+            </div>
+        </div>
+    </section>
+    <!-- Glimps ends here -->
+    <!-- Plans Section starts here -->
+    <section id="plans">
+        <div class=" container">
+            <div class="planHeading">
+                <h2>Flexible <span>Pricing</span> Plans</h2>
+                <p>Lorem ipsum dolor sit </p>
+            </div>
+
+            <div class="planContants">
+                <div class="planCards">
+                    <h3>Trial Version</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, nobis.</p>
+                    <p><span>free</span></p>
+                    <ul>
+                        <li>500gb drive space</li>
+                        <li>Unlimited messages</li>
+                        <li>Free email address</li>
+                        <li>Friendly support</li>
+
+                    </ul>
+                    <a href="#" class="btn planBtn ">download</a>
+                </div>
+                <div class="planCards">
+                    <h3>Trial Version</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, nobis.</p>
+                    <p>$<span>19
+                        </span>/Month</p>
+                    <ul>
+                        <li>500gb drive space</li>
+                        <li>Unlimited messages</li>
+                        <li>Free email address</li>
+                        <li>Friendly support</li>
+
+                    </ul>
+                    <a href="#" class="btn planBtn  ">download</a>
+                </div>
+                <div class="planCards">
+                    <h3>Trial Version</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, nobis.</p>
+                    <p>$<span>29</span>/Month</p>
+                    <ul>
+                        <li>500gb drive space</li>
+                        <li>Unlimited messages</li>
+                        <li>Free email address</li>
+                        <li>Friendly support</li>
+
+                    </ul>
+                    <a href="#" class="btn planBtn ">download</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Plans Section starts here -->
+    <!-- Testinomial starts here -->
+    <section id="testimonials">
+        <div class="container">
+            <div class="testnomialHeader">
+                <div class="testnomialHeaderLeft">
+                    <h2><span>Testimonials</span> About Us</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                </div>
+
+                <div class="testnomialHeaderRight">
+                    <div class="Button" style="float: left;">
+                        <img src="./images/icons/larrow.png" alt="" class="imageDIv">
+                    </div>
+                    <div class="Button" style="float: right;">
+                        <img src="./images/icons/rarrow.png" alt="" class="imageDIv">
+                    </div>
+                </div>
+
+            </div>
+            <div class="testimonialsContent">
+                <div class="testimonialsContentBox">
+                    <div class="testimonialsImg">
+
+                        <img src="./images/t-1.jpeg" alt="" class="imageDIv">
+                    </div>
+                    <h3>Robert Newmen</h3>
+                    <p>Microsoft Corporation</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quae eligendi optio doloribus
+                        similique! Nisi recusandae sunt aut accusamus facere sed illo excepturi pariatur nam debitis
+                        possimus rerum, ratione provident dolor nostrum, corrupti ullam aspernatur ipsam mollitia
+                        aliquid, adipisci perspiciatis.</p>
+                </div>
+                <div class="testimonialsContentBox">
+                    <div class="testimonialsImg">
+
+
+                        <img src="./images/t-2.jpeg" alt="" class="imageDIv">
+                    </div>
+                    <h3>Robert Newmen</h3>
+                    <p>Microsoft Corporation</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae quae eligendi optio doloribus
+                        similique! Nisi recusandae sunt aut accusamus facere sed illo excepturi pariatur nam debitis
+                        possimus rerum, ratione provident dolor nostrum, corrupti ullam aspernatur ipsam mollitia
+                        aliquid, adipisci perspiciatis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testinomial ends here -->
+    <!-- Blog section starts here -->
+    <section id="blog">
+        <div class="container">
+            <div class="blogHeader">
+                <h2>Latest <span>blogs</span> posts</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+            </div>
+            <div class="blogcontents">
+                <div class="blogCard">
+                    <!-- <div class="cardUpper"> -->
+                    <img src="./images/img-2.jpg" alt="" style="width: 100%; border-radius: 5px 5px 0 0;">
+                    <!-- </div> -->
+                    <div class="cardLower">
+                        <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, nesciunt!</p>
+                        <a href="" class="btn cardBtn">read more</a>
+                    </div>
+                </div>
+                <div class="blogCard">
+                    <!-- <div class="cardUpper"> -->
+                    <img src="./images/img-2.jpg" alt="" style="width: 100%; border-radius: 5px 5px 0 0;">
+                    <!-- </div> -->
+                    <div class="cardLower">
+                        <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, nesciunt!</p>
+                        <a href="" class="btn cardBtn">read more</a>
+                    </div>
+                </div>
+                <div class="blogCard">
+                    <!-- <div class="cardUpper"> -->
+                    <img src="./images/img-2.jpg" alt="" style="width: 100%; border-radius: 5px 5px 0 0;">
+                    <!-- </div> -->
+                    <div class="cardLower">
+                        <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, nesciunt!</p>
+                        <a href="" class="btn cardBtn">read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog section ends here -->
+    <!-- footer section stars here -->
+    <footer id="footer">
+        <div class="container">
+            <div class="footerLogo">
+                <img src="./images/logo-footer.jpg" alt="">
+            </div>
+            <div class="footerContent">
+                <div class="footerLinksCard">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="">About</a></li>
+                        <li><a href="">supports</a></li>
+                        <li><a href="">press</a></li>
+                        <li><a href="">legal & privacy</a></li>
+                    </ul>
+                </div>
+                <div class="footerLinksCard">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="">news</a></li>
+                        <li><a href="">contact us</a></li>
+                        <li><a href="">faq</a></li>
+                        <!-- <li><a href="">legal & privacy</a></li> -->
+                    </ul>
+                </div>
+                <div class="footerLinksCard">
+                    <h3>Socials</h3>
+                    <ul>
+                        <li><a href="">facebook</a></li>
+                        <li><a href="">google +</a></li>
+                        <li><a href="">twitter</a></li>
+                        <li><a href="">instagram</a></li>
+                    </ul>
+                </div>
+                <div class="footerLinksCard">
+                    <h3>Subscribe newsletter</h3>
+                    <form action="">
+                        <input type="text" placeholder="Email">
+                        <button type="submit" class="footerInputButton">
+                            <img src="./images/icons/i-message.svg" alt="" style="width: 100%;">
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="footerLast">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut, officiis!</p>
+        </div>
+    </footer>
+
+    <div class="goToTop">
+        <img src="./images/goToTop.jpg" class="imageDIv" style="mix-blend-mode: multiply; border-radius:15px ;">
+    </div>
+    <!-- footer section ends here -->
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
