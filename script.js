@@ -35,10 +35,6 @@ $(document).ready(function () {
     $(".item5").css({ "grid-area": "1 / 1/ span 2 / span 1" });
   });
 
-  console.log(getBoundingClientRect());
-  if ($(body).scrollTop() > 500) {
-    $("goToTop").show();
-  }
   $(".goToTop").click(function () {
     $(window).scrollTop(0);
   });
